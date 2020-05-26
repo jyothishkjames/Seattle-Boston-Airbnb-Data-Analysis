@@ -11,7 +11,7 @@
 
    * Busiest time to visit Seattle/Boston?
 
-   * Compare rates between the two cities.
+   * Compare rates between the two cities over time.
 
    * Predict price.
  
