@@ -18,8 +18,9 @@
     
 * Data Understanding
 
-   * Average visitors to Seattle/Boston over time?
-     - last_scraped, accommodates (columns)
+   * Predicted visitors to Seattle/Boston over time 
+   (based on non availability of listings)?
+     - date, accommodates (columns)
    * Which areas are more crowded, which areas are more preferred by people?
      - neighbourhood, zipcode (columns)
    * Busiest time to visit Seattle/Boston?
