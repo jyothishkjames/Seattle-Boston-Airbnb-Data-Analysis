@@ -5,27 +5,28 @@
 
 * Business Understanding
  
-   * Average visitors to Seattle/Boston over time?
+   * Planned visitors to Seattle/Boston over time 
+   (based on non availability of listings)?
 
    * Which areas are more crowded, which areas are more preferred by people?
 
    * Busiest time to visit Seattle/Boston?
 
-   * Compare rates between the two cities over time.
+   * Compare the average daily price for a month over time(between the two cities).
 
    * Predict price.
  
     
 * Data Understanding
 
-   * Predicted visitors to Seattle/Boston over time 
+   * Planned visitors to Seattle/Boston over time 
    (based on non availability of listings)?
      - date, accommodates (columns)
    * Which areas are more crowded, which areas are more preferred by people?
      - neighbourhood, zipcode (columns)
    * Busiest time to visit Seattle/Boston?
      - last_scraped, accommodates (columns)
-   * Compare rates between the two cities over time.
+   * Compare the average daily price for a month over time(between the two cities).
      - price, weekly_price, monthly_price (columns)
    * Predict price.
      - property_type, room_type, neighbourhood, zipcode, accommodates, 
