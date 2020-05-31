@@ -25,13 +25,13 @@
    * Which areas are more crowded, which areas are more preferred by people?
      - neighbourhood, zipcode (columns)
    * Busiest time to visit Seattle/Boston?
-     - last_scraped, accommodates (columns)
+     - date, accommodates (columns) : Seattle-July, Boston-March.
    * Compare the average daily price for a month over time(between the two cities).
-     - price, weekly_price, monthly_price (columns)
+     - price, date, weekly_price, monthly_price (columns) from calendar.csv
    * Predict price.
-     - property_type, room_type, neighbourhood, zipcode, accommodates, 
-     cancellation_policy (columns or more)
-
+     - property_type, room_type, neighbourhood, zipcode, accommodates, transit
+      bathrooms, bedrooms, beds, cleaning fee, reviews, instant_bookable, 
+      cancellation_policy (columns or more) 
 * Data Preparation
 
 * Modeling
