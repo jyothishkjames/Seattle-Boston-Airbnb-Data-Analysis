@@ -34,9 +34,16 @@
       cancellation_policy (columns or more) 
 * Data Preparation
 
+    [Data Prepration](https://github.com/jyothishkjames/Seattle-Boston-Airbnb-Data-Analysis/blob/master/data_prepration_modeling_evaluation.ipynb)
+
 * Modeling
 
+    [Modelling](https://github.com/jyothishkjames/Seattle-Boston-Airbnb-Data-Analysis/blob/master/data_prepration_modeling_evaluation.ipynb)
+
+
 * Evaluation
+
+    [Evaluation](https://github.com/jyothishkjames/Seattle-Boston-Airbnb-Data-Analysis/blob/master/data_prepration_modeling_evaluation.ipynb)
 
 * Deployment
  
