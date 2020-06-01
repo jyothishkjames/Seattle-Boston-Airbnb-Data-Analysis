@@ -29,7 +29,7 @@
    * Compare the average daily price for a month over time(between the two cities).
      - price, date, weekly_price, monthly_price (columns) from calendar.csv
    * Predict price.
-     - property_type, room_type, neighbourhood, zipcode, accommodates, transit
+     - property_type, room_type, neighbourhood, zipcode, accommodates,
       bathrooms, bedrooms, beds, cleaning fee, reviews, instant_bookable, 
       cancellation_policy (columns or more) 
 * Data Preparation
