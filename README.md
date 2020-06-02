@@ -5,13 +5,25 @@ to answers our questions of interest, which are crucial for business decision-ma
 
 Data analysis is the process of cleaning, transforming, and modelling data to find useful insights that are beneficial for business decision-making. CRISP-DM is a structured approach that makes the life of a data scientist easier.
 
+Prerequisites
+-------------
+The following libraries are used for the project:
+
+        numpy
+        pandas
+        matplotlib
+        seaborn
+        sklearn
+
+
+
 ## CRISP-DM
 
 * ### Business Understanding
 
     The key idea of Business Understanding is to understand the problem and find questions that you are interested in answering.
     
-    There are two strategies for arriving at the questions of interest.
+    There are two strategies for arriving at the questions of interest:
     
     * You might not have any data, but you might have questions that are interesting. In this case, collect the necessary data in order to answer those questions.
     
