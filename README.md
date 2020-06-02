@@ -6,9 +6,12 @@
 * ### Business Understanding
 
     The key idea of Business Understanding is to understand the problem and find questions that you are interested in answering.
+    
     There are two strategies for arriving at the questions of interest.
-    You might not have any data, but you might have questions that are interesting. In this case, collect the necessary data in order to answer those questions.
-    You have the data and you get familiar with the data to come up with questions of interest.
+    
+    * You might not have any data, but you might have questions that are interesting. In this case, collect the necessary data in order to answer those questions.
+    
+    * You have the data and you get familiar with the data to come up with questions of interest.
 
     **The questions of interest for the Seattle/Boston datasets are as follows:**
  
@@ -40,7 +43,7 @@
    * The busiest time to visit Seattle/Boston?
      - date, accommodates (columns) : Seattle-July, Boston-March.
    * Compare the average daily price of listings for a month over time (between the two cities).
-     - price, date, weekly_price, monthly_price (columns) from calendar.csv
+     - price, date (columns) from calendar.csv
    * Predict the price of listings for Seattle/Boston.
      - property_type, room_type, neighbourhood, zipcode, accommodates, 
       bathrooms, bedrooms, beds, cleaning fee, instant_bookable, 
@@ -65,7 +68,7 @@
 
     [Evaluation](https://github.com/jyothishkjames/Seattle-Boston-Airbnb-Data-Analysis/blob/master/data_prepration_modeling_evaluation.ipynb)
     
-    For the evaluation, we use the r-square score to get an understanding of how well our model works. The price prediction for Seattle has an r-square score of .528 on test data, which is higher as compared to Boston which an r-square score of .206. The closer the score is to 1, the better your model fits the data.
+    For the evaluation, we use the r-squared score to get an understanding of how well our model works. The price prediction for Seattle has an r-squared score of .528 on test data, which is higher as compared to Boston which an r-squared score of .206. The closer the score is to 1, the better your model fits the data.
 * ### Deployment
 
     Deployment is the stage where we applying the conclusion to our Business.  To recap, the conclusions are based on the statistical inference and the model prediction.
