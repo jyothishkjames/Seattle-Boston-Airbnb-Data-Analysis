@@ -1,25 +1,37 @@
-# [WIP]Seattle-Boston-Airbnb-Data-Analysis
+# Seattle-Boston-Airbnb-Data-Analysis
 
 
-**CRISP-DM**
+##CRISP-DM
 
-* Business Understanding
+* ###Business Understanding
+
+    The key idea of Business Understanding is to understand the problem and find questions that you are interested in answering.
+    There are two strategies for arriving at the questions of interest.
+    You might not have any data, but you might have questions that are interesting. In this case, collect the necessary data in order to answer those questions.
+    You have the data and you get familiar with the data to come up with questions of interest.
+
+    **The questions of interest for the Seattle/Boston datasets are as follows:**
  
-   * Planned visitors to Seattle/Boston over time 
-   (based on non availability of listings)?
+    * Anticipated visitors to Seattle/Boston over time 
+    (based on non availability of listings)?
 
-   * Which areas are more crowded, which areas are more preferred by people?
+    * Areas that are more likely to be crowded/ areas that are more likely to be 
+      preferred by people (based on the number of bookings)?
+     
+    * The busiest time to visit Seattle/Boston?
 
-   * Busiest time to visit Seattle/Boston?
+    * Compare the average daily price for a month over time(between the two cities).
 
-   * Compare the average daily price for a month over time(between the two cities).
-
-   * Predict price.
+    * Predict the price of listings for Seattle/Boston.
  
     
-* Data Understanding
+* ###Data Understanding
 
-   * Planned visitors to Seattle/Boston over time 
+    Now we have the question, we need to move the question into the data. Find the columns from the datasets that would answer these questions.
+    
+    **The columns identified to answer the necessary questions are as below:**
+
+   * Anticipated visitors to Seattle/Boston over time 
    (based on non availability of listings)?
      - date, accommodates (columns)
    * Areas that are more likely to be crowded/ areas that are more likely to be 
@@ -35,20 +47,25 @@
       cancellation_policy (columns or more) 
 
 
-* Data Preparation
+* ###Data Preparation
 
-    [Data Prepration](https://github.com/jyothishkjames/Seattle-Boston-Airbnb-Data-Analysis/blob/master/data_prepration_modeling_evaluation.ipynb)
-
-* Modeling
+    [Data Preparation](https://github.com/jyothishkjames/Seattle-Boston-Airbnb-Data-Analysis/blob/master/data_prepration_modeling_evaluation.ipynb)
+    
+    The data preparation has various rigorous steps including the following:
+    * Filling missing data
+    * Removing data
+    * Transforming data
+* ###Modeling
 
     [Modelling](https://github.com/jyothishkjames/Seattle-Boston-Airbnb-Data-Analysis/blob/master/data_prepration_modeling_evaluation.ipynb)
+    
+    For predicting the price of listings, we split the prepared data into train and test data. The training data is then used to fit the linear model. Thereafter, the test data is used to test the linear model.
 
-
-* Evaluation
+* ###Evaluation
 
     [Evaluation](https://github.com/jyothishkjames/Seattle-Boston-Airbnb-Data-Analysis/blob/master/data_prepration_modeling_evaluation.ipynb)
+    
+    For the evaluation, we use the r-square score to get an understanding of how well our model works. The price prediction for Seattle has an r-square score of .528 on test data, which is higher as compared to Boston which an r-square score of .206. The closer the score is to 1, the better your model fits the data.
+* ###Deployment
 
-* Deployment
- 
- 
-
+    Deployment is the stage where we applying the conclusion to our Business.  To recap, the conclusions are based on the statistical inference and the model prediction.
