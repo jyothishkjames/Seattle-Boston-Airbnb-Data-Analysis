@@ -1,9 +1,9 @@
 # Seattle-Boston-Airbnb-Data-Analysis
 
 
-##CRISP-DM
+## CRISP-DM
 
-* ###Business Understanding
+* ### Business Understanding
 
     The key idea of Business Understanding is to understand the problem and find questions that you are interested in answering.
     There are two strategies for arriving at the questions of interest.
@@ -25,7 +25,7 @@
     * Predict the price of listings for Seattle/Boston.
  
     
-* ###Data Understanding
+* ### Data Understanding
 
     Now we have the question, we need to move the question into the data. Find the columns from the datasets that would answer these questions.
     
@@ -47,7 +47,7 @@
       cancellation_policy (columns or more) 
 
 
-* ###Data Preparation
+* ### Data Preparation
 
     [Data Preparation](https://github.com/jyothishkjames/Seattle-Boston-Airbnb-Data-Analysis/blob/master/data_prepration_modeling_evaluation.ipynb)
     
@@ -55,17 +55,17 @@
     * Filling missing data
     * Removing data
     * Transforming data
-* ###Modeling
+* ### Modeling
 
     [Modelling](https://github.com/jyothishkjames/Seattle-Boston-Airbnb-Data-Analysis/blob/master/data_prepration_modeling_evaluation.ipynb)
     
     For predicting the price of listings, we split the prepared data into train and test data. The training data is then used to fit the linear model. Thereafter, the test data is used to test the linear model.
 
-* ###Evaluation
+* ### Evaluation
 
     [Evaluation](https://github.com/jyothishkjames/Seattle-Boston-Airbnb-Data-Analysis/blob/master/data_prepration_modeling_evaluation.ipynb)
     
     For the evaluation, we use the r-square score to get an understanding of how well our model works. The price prediction for Seattle has an r-square score of .528 on test data, which is higher as compared to Boston which an r-square score of .206. The closer the score is to 1, the better your model fits the data.
-* ###Deployment
+* ### Deployment
 
     Deployment is the stage where we applying the conclusion to our Business.  To recap, the conclusions are based on the statistical inference and the model prediction.
