@@ -20,7 +20,7 @@
      
     * The busiest time to visit Seattle/Boston?
 
-    * Compare the average daily price for a month over time(between the two cities).
+    * Compare the average daily price of listings for a month over time (between the two cities).
 
     * Predict the price of listings for Seattle/Boston.
  
@@ -39,7 +39,7 @@
      - neighbourhood, zipcode (columns)
    * The busiest time to visit Seattle/Boston?
      - date, accommodates (columns) : Seattle-July, Boston-March.
-   * Compare the average daily price for a month over time(between the two cities).
+   * Compare the average daily price of listings for a month over time (between the two cities).
      - price, date, weekly_price, monthly_price (columns) from calendar.csv
    * Predict the price of listings for Seattle/Boston.
      - property_type, room_type, neighbourhood, zipcode, accommodates, 
