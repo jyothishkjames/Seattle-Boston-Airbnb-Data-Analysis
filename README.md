@@ -1,7 +1,7 @@
 # Seattle-Boston-Airbnb-Data-Analysis
 
 The motivation of this project is to get as much as insights from the Seattle/Boston datasets 
-to answers our questions of interest which are crucial for business decision-making
+to answers our questions of interest, which are crucial for business decision-making
 
 Data analysis is the process of cleaning, transforming, and modelling data to find useful insights that are beneficial for business decision-making. CRISP-DM is a structured approach that makes the life of a data scientist easier.
 
@@ -45,7 +45,7 @@ Data analysis is the process of cleaning, transforming, and modelling data to fi
      preferred by people (based on the number of bookings)?
      - neighbourhood, zipcode (columns)
    * The busiest time to visit Seattle/Boston?
-     - date, accommodates (columns) : Seattle-July, Boston-March.
+     - date, accommodates (columns) 
    * Compare the average daily price of listings for a month over time (between the two cities).
      - price, date (columns) from calendar.csv
    * Predict the price of listings for Seattle/Boston.
@@ -76,3 +76,8 @@ Data analysis is the process of cleaning, transforming, and modelling data to fi
 * ### Deployment
 
     Deployment is the stage where we applying the conclusion to our Business.  To recap, the conclusions are based on the statistical inference and the model prediction.
+    
+ ## Summary of Data Analysis
+ 
+ Form the statistical analysis, it was found that the busiest time to visit Seattle is in January and for Boston is in September. It was also inferred that the
+ neighbourhood Capitol Hill was most likely to be preferred by visitors to Seattle. For Boston, the visitors preferred the neighbourhood Allston-Brighton.   
