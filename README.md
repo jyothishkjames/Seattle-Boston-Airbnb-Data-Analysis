@@ -84,7 +84,7 @@ The following libraries are used for the project:
 
     [Evaluation](https://github.com/jyothishkjames/Seattle-Boston-Airbnb-Data-Analysis/blob/master/data_prepration_modeling_evaluation.ipynb)
     
-    For the evaluation, we use the r-squared score to get an understanding of how well our model works. The price prediction for Seattle has an r-squared score of .528 on test data, which is higher as compared to Boston which an r-squared score of .206. The closer the score is to 1, the better your model fits the data.
+    For the evaluation, we use the r-squared score to get an understanding of how well our model works. The price prediction for Seattle has an r-squared score of .517 on test data, which is higher as compared to Boston which has an r-squared score of .313. The closer the score is to 1, the better your model fits the data.
 * ### Deployment
 
     Deployment is the stage where we applying the conclusion to our Business.  To recap, the conclusions are based on the statistical inference and the model prediction.
