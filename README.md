@@ -92,4 +92,8 @@ The following libraries are used for the project:
  ## Summary of Data Analysis
  
  Form the statistical analysis, it was found that the busiest time to visit Seattle is in January and for Boston is in September. It was also inferred that the
- neighbourhood Capitol Hill was most likely to be preferred by visitors to Seattle. For Boston, the visitors preferred the neighbourhood Allston-Brighton.   
+ neighbourhood Capitol Hill was most likely to be preferred by visitors to Seattle. For Boston, the visitors preferred the neighbourhood Allston-Brighton. 
+ 
+ ## Link to the Blog
+  
+ [Link to the Blog](https://medium.com/@jyothishlp/crisp-dm-approach-for-data-analysis-468ec2d5b2dd)  
