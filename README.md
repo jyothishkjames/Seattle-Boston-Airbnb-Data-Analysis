@@ -46,9 +46,9 @@ The following libraries are used for the project:
     
 * ### Data Understanding
 
-    Now we have the question, we need to move the question into the data. Find the columns from the datasets that would answer these questions.
+   Now we have the question, we need to move the question into the data. Find the columns from the datasets that would answer these questions.
     
-    **The columns identified to answer the necessary questions are as below:**
+   **The columns identified to answer the necessary questions are as below:**
 
    * Anticipated visitors to Seattle/Boston over time 
    (based on non availability of listings)?
