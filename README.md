@@ -1,7 +1,7 @@
 # Seattle-Boston-Airbnb-Data-Analysis
 
 The motivation of this project is to get as much as insights from the Seattle/Boston datasets 
-to answers our questions of interest, which are crucial for business decision-making
+to answers our questions of interest, which are crucial for business decision-making.
 
 Data analysis is the process of cleaning, transforming, and modelling data to find useful insights that are beneficial for business decision-making. CRISP-DM is a structured approach that makes the life of a data scientist easier.
 
